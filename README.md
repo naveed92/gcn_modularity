@@ -8,10 +8,10 @@ python run.py
 #### Parameters:
 ```
 --dataset 
-Specify dataset to use
+Specify dataset to use. Possible values are 'cora', 'citeseer' or 'pubmed'
 
 --weight
-Specify weight value of community structure preserving term, values from 0.0 to 1.0
+Specify weight value of community structure preserving term, valid values from 0.0 to 1.0
 
 --n_label_per_class
 Set number of labels per class to sample for training set, valid values range from 1 to 20
